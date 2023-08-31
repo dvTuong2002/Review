@@ -1,0 +1,20 @@
+
+.list-product img{
+    width: 70px;
+}
+.list-product table tbody tr td,
+.list-product table tbody tr th
+ {
+    vertical-align: middle;
+}
+.list-product table tbody tr td:nth-child(2),
+.list-product table tbody tr th,
+.list-product table tbody tr td:last-child
+ {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.form, .list-product{
+    box-shadow: 10px 10px 5px 0px rgba(81, 80, 80, 0.59);
+}
